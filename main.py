@@ -22,6 +22,10 @@ usuarios = {
     "12345678900": {
         "nome": "Cliente Teste",
         "senha": "123456"
+    },
+    "73253308200": {
+        "nome": "Cliente Legal One",
+        "senha": "123456"
     }
 }
 
@@ -157,3 +161,4 @@ def consulta(token: str, dados: ConsultaRequest):
         "data_ultimo_andamento_formatada": retorno_n8n.get("data_ultimo_andamento_formatada", ""),
         "andamentos": retorno_n8n.get("andamentos", [])
     }
+
